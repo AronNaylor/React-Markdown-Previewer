@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+#pageContainer {
+  width: 85%;
+  border: solid black 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+}
+
+#editor {
+  width: 80%;
+  height: 250px;
+  margin-top: 5px;
+}
+
+#preview {
+  width: 80%;
+  height: auto;
+  text-align: start;
+}
